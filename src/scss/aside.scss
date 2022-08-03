@@ -1,0 +1,7 @@
+aside {
+  display: flex;
+  flex-direction: row;
+}
+aside img:nth-child(2) {
+  width: 79%;
+}

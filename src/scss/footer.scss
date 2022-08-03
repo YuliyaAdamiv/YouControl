@@ -1,0 +1,120 @@
+@import './variables.scss';
+footer {
+  font-family: 'Roboto', sans-serif;
+  padding: 24px 26px 37px 263px;
+}
+
+.footer_first div:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: $medium-grey;
+}
+.footer_first div:nth-child(2) {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $dark;
+}
+.footer_first div:nth-child(3) {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: $blue;
+}
+.footer_first div:nth-child(4) {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: $medium-grey;
+}
+.btn {
+  width: 135px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  background: $green;
+  border: none;
+  border-radius: 2px;
+}
+.footer_second div:first-child,
+.footer_third div:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark;
+}
+.footer_second {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: $dark;
+}
+
+.footer_fourth div:first-child {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: $medium-grey;
+}
+.footer_fourth div {
+  text-align: right;
+}
+.footer_fourth div img {
+  padding-right: 8px;
+}
+.footer_fourth div img:last-child {
+  padding-right: 0px;
+}
+.footer_fourth div:nth-child(5) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: $medium-grey;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_shape {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.footer_score {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: $dark;
+}
+.footer_api {
+  padding-left: 32px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: $medium-grey;
+}
+#flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  gap: 20px 5px;
+}
+
+#flexbox div {
+  flex: 1 1 auto;
+  width: 200px;
+  height: 23px;
+}
+#flexbox div.footer_third div {
+  height: 30px;
+}
