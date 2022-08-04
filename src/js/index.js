@@ -10,9 +10,11 @@ function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
     menu.classList.remove('showMenu');
     closeIcon.style.display = 'none';
+    menu.style.display = 'none';
   } else {
     menu.classList.add('showMenu');
     closeIcon.style.display = 'block';
+    menu.style.display = 'block';
   }
 }
 

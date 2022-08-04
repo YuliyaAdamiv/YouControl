@@ -85,7 +85,7 @@ li {
 
 .menu {
   position: absolute;
-  transform: translateX(343%);
+  transform: translate(343%);
   transition: transform 0.2s;
   top: 70px;
   left: 0;
@@ -95,6 +95,7 @@ li {
   height: 1000px;
   width: 420px;
   z-index: 2;
+  display: none;
 }
 
 .menu-container {
