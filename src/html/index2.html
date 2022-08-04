@@ -24,10 +24,10 @@
             <button class="hamburger"><img  src="img/green-horn.png" alt="icons"/></button>
             <img class="icon" src="img/icon-2.png" alt="icons"/>
         </div>
-        <ul class="menu empty">
+        <div class="menu empty">
             <img class="horn-img" src="img/horn.png" alt='horn'/>
             <p class="horn-text">Тут будуть показані всі нові сповіщення</p>
-        </ul>
+        </div>
             <i class="close-icon material-icons">close</i>
    </header>
    <div class="container">
@@ -38,7 +38,7 @@
     <div>
     <button class="tablink" onclick="openPage('Home', this, 'red')">Мій акаунт</button>
     <button class="tablink" onclick="openPage('News', this, 'green')" >Історія трансакцій</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')"id="defaultOpen">Сповіщення</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')" id="defaultOpen">Сповіщення</button>
 
 <div id="Home" class="tabcontent">
     <p class="menu-title">Ваші сповіщення</p>
@@ -105,7 +105,7 @@
 
 <div id="News" class="tabcontent">
     <p class="menu-title">Ваші сповіщення</p>
-    <div id="myBtn" class="card">
+    <div  class="card">
         <div  class="card-top">
             <button class="card-top_tag">оновлення</button>
             <p class="card-top_time">Сьогодні 29.05.2019</p>
@@ -165,10 +165,9 @@
         <a href="#">&raquo;</a>
       </div>
 </div>
-
 <div id="Contact" class="tabcontent">
     <p class="menu-title">Ваші сповіщення</p>
-    <div id="myBtn" class="card">
+    <div  class="card">
         <div  class="card-top">
             <button class="card-top_tag">оновлення</button>
             <p class="card-top_time">Сьогодні 29.05.2019</p>
@@ -218,7 +217,7 @@
     </div>
     <div class="pagination">
         <a href="#">&laquo;</a>
-        <a href="#"class="active">1</a>
+        <a href="#" class="active">1</a>
         <a href="#" >2</a>
         <a href="#">3</a>
         <a href="#">4</a>

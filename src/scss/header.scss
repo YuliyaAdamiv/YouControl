@@ -110,9 +110,6 @@ li {
   background: $white;
   cursor: pointer;
 }
-.hamburger:active {
-  background: $green;
-}
 .modal {
   display: none;
   position: fixed;
@@ -137,13 +134,16 @@ li {
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+  &:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 .horn-text {
