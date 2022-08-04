@@ -6,11 +6,19 @@
   line-height: 15px;
   color: $dark-grey;
 }
+.menu {
+  min-height: 1100px;
+  overflow: scroll;
+}
 .card {
   padding: 18px 32px 18px 16px;
   background: $background-color;
   box-shadow: inset 0px 1px 0px $shadow;
+  &:hover {
+    background: $hover;
+  }
 }
+
 .card-top {
   display: flex;
   flex-direction: row;
@@ -91,4 +99,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
 }

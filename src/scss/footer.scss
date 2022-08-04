@@ -64,10 +64,10 @@ footer {
 .footer_fourth div {
   text-align: right;
 }
-.footer_fourth div img {
+.footer_fourth div a {
   padding-right: 8px;
 }
-.footer_fourth div img:last-child {
+.footer_fourth div a:last-child {
   padding-right: 0px;
 }
 .footer_fourth div:nth-child(5) {
@@ -115,4 +115,115 @@ footer {
 }
 #flexbox div.footer_third div {
   height: 30px;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  #flexbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 124px;
+  }
+  .footer_first {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .footer_second {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .footer_third {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .footer_fourth {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .footer_fourth div:first-child {
+    text-align: left;
+  }
+  .footer_fourth div {
+    text-align: left;
+  }
+
+  .footer_fourth div:nth-child(5) {
+    text-align: left;
+  }
+  footer {
+    padding: 24px 26px 37px 32vw;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #flexbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 124px;
+  }
+  .footer_first {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .footer_second {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .footer_third {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .footer_fourth {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .footer_second {
+    text-align: center;
+  }
+  .footer_fourth {
+    text-align: center;
+  }
+  #flexbox div {
+    flex: 1 1 auto;
+    width: 160px;
+    height: 23px;
+  }
+
+  .footer_fourth div:nth-child(5) {
+    text-align: left;
+  }
+  footer {
+    padding: 24px 26px 37px 20vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 998px) {
+  #flexbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 124px;
+  }
+  .footer_first {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .footer_second {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .footer_third {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .footer_fourth {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .footer_second {
+    text-align: center;
+  }
+  .footer_fourth {
+    text-align: center;
+  }
+  footer {
+    padding: 24px 26px 37px 10vw;
+  }
+}
+@media (min-width: 999px) and (max-width: 1199px) {
+  #flexbox div {
+    flex: 1 1 auto;
+    width: 170px;
+    height: 23px;
+  }
 }

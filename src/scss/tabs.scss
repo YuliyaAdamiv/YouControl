@@ -8,39 +8,30 @@ html {
 .tablink {
   background-color: $white;
   color: $dark;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  margin-top: -47px;
+  margin-top: 47px;
   margin-left: 10px;
-  font-size: 17px;
   width: 25%;
-}
-
-.tablink:hover {
-  background-color: $shadow;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $shadow;
+  }
 }
 
 .tabcontent {
   color: $white;
   display: none;
-  margin: 100px 10px;
+  margin: 0px 10px;
   padding: 5px 15px;
   height: 100%;
   background-color: $shadow;
 }
-
-// #Home {
-//   background-color: $white;
-// }
-// #News {
-//   background-color: $white;
-// }
-// #Contact {
-//   background-color: $white;
-// }
 .pagination {
   margin-top: 24px;
   margin-bottom: 80px;
@@ -52,12 +43,12 @@ html {
 }
 
 .pagination a {
-  color: black;
+  color: $dark;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
   background-color: $white;
-  border: 1px solid #ddd;
+  border: 1px solid $shadow;
 }
 
 .pagination a.active {
@@ -70,4 +61,44 @@ html {
 }
 main {
   background: $white;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagination {
+    width: 37%;
+  }
+  .pagination a {
+    padding: 2px 2px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagination {
+    width: 45%;
+  }
+  .pagination a {
+    padding: 7px 7px;
+  }
+}
+@media (min-width: 768px) and (max-width: 998px) {
+  .pagination {
+    width: 40%;
+  }
+  .pagination a {
+    padding: 4px 4px;
+  }
+}
+@media (min-width: 999px) and (max-width: 1199px) {
+  .pagination {
+    width: 45%;
+  }
+  .pagination a {
+    padding: 8px 12px;
+  }
 }
