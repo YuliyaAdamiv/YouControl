@@ -3,6 +3,8 @@ const menuItems = document.querySelectorAll('.menu-item');
 const hamburger = document.querySelector('.hamburger');
 const closeIcon = document.querySelector('.close-icon');
 const menuIcon = document.querySelector('.menu-icon');
+const horn = document.getElementById('horn');
+const five = document.querySelector('.five');
 
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
@@ -52,3 +54,7 @@ function openPage(pageName, elmnt, color) {
   elmnt.style.backgroundColor = color;
 }
 document.getElementById('defaultOpen').click();
+function changeImage(img) {
+  horn.src = img.src.replace('img/icon-1.png', 'img/green-horn.png');
+  five.style.display = 'none';
+}
