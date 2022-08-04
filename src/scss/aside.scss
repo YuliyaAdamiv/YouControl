@@ -4,4 +4,9 @@ aside {
 }
 aside img:nth-child(2) {
   width: 79%;
+  height: 900px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
 }

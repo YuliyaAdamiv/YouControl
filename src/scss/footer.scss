@@ -1,6 +1,5 @@
 @import './variables.scss';
 footer {
-  font-family: 'Roboto', sans-serif;
   padding: 24px 26px 37px 263px;
 }
 
@@ -106,7 +105,6 @@ footer {
 #flexbox {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
   gap: 20px 5px;
 }
 

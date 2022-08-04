@@ -1,0 +1,94 @@
+@import './variables.scss';
+.menu-title {
+  margin: 34px 0 19px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: $dark-grey;
+}
+.card {
+  padding: 18px 32px 18px 16px;
+  background: $background-color;
+  box-shadow: inset 0px 1px 0px $shadow;
+}
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.card:nth-child(3),
+.card:nth-child(4),
+.card:nth-child(7) {
+  background: $white;
+}
+.card-top_tag {
+  width: 75.2px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: $white;
+  background: $light-green;
+  border: none;
+  border-radius: 12px;
+}
+.hot {
+  width: 96.2px;
+  background: $red;
+}
+.web {
+  width: 56px;
+  background: $yellow;
+}
+.meet {
+  width: 56px;
+  background: $dark-blue;
+}
+.card-top_time {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: $text-grey;
+  opacity: 0.75;
+}
+.card-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  color: $dark;
+  opacity: 0.75;
+  margin-bottom: 12px;
+}
+.card-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $medium-grey;
+  opacity: 0.75;
+}
+.look-all {
+  width: 420px;
+  height: 80px;
+  box-shadow: inset 0px 1px 0px $shadow;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+.btn-look {
+  width: 372px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.0954545px;
+  border-radius: 3px;
+  color: $white;
+  background: $green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

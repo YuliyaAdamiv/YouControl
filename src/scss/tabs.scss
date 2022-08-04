@@ -1,0 +1,73 @@
+@import './variables.scss';
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.tablink {
+  background-color: $white;
+  color: $dark;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-top: -47px;
+  margin-left: 10px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: $shadow;
+}
+
+.tabcontent {
+  color: $white;
+  display: none;
+  margin: 100px 10px;
+  padding: 5px 15px;
+  height: 100%;
+  background-color: $shadow;
+}
+
+// #Home {
+//   background-color: $white;
+// }
+// #News {
+//   background-color: $white;
+// }
+// #Contact {
+//   background-color: $white;
+// }
+.pagination {
+  margin-top: 24px;
+  margin-bottom: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: $shadow;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: $white;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: $white;
+  color: $light-green;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: $white;
+}
+main {
+  background: $white;
+}

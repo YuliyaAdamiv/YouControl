@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>YouControl</title>
+</head>
+
+<body>
+   <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" />
+            <img src="img/hamburger.png" alt="hamburger"/>
+        </div>
+        <div>
+            <img class="medium_part" src="img/header.png" alt="header"/>
+        </div>
+        <div>
+            <button class="hamburger"><img src="img/icon-1.png" alt="icons"/></button>
+            <img class="icon" src="img/icon-2.png" alt="icons"/>
+            <img class="five" src="img/5.png" alt="5"/> 
+        </div>
+        <ul class="menu">
+            <p class="menu-title">Сповіщення від YouControl</p>
+            <div id="myBtn" class="card">
+                <div  class="card-top">
+                    <button class="card-top_tag">оновлення</button>
+                    <p class="card-top_time">Сьогодні 29.05.2019</p>
+                </div>
+                <p class="card-title">Нові функції моніторинга</p>
+                <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+            </div>
+            <div class="card">
+                <div class="card-top">
+                    <button class="card-top_tag">оновлення</button>
+                    <p class="card-top_time">28.05.2019</p>
+                </div>
+                <p class="card-title">Оновленна вкладка судових рішень</p>
+                <p class="card-content">Synergistically aggregate inexpensive value after enterprise e-tailers. Assertively mesh cooperative resources before revolutionary bandwidth. Globally expedite team.</p>
+            </div>
+            <div class="card">
+                <div class="card-top">
+                    <button class="card-top_tag hot">Гаряча новина</button>
+                    <p class="card-top_time">28.05.2019</p>
+                </div>
+                <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+                <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+            </div>
+            <div class="card">
+                <div class="card-top">
+                    <button class="card-top_tag web">Вебінар</button>
+                    <p class="card-top_time">21.05.2019</p>
+                </div>
+                <p class="card-title">Нові функції моніторинга</p>
+                <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+            </div>
+            <div class="card">
+                <div class="card-top">
+                    <button class="card-top_tag">оновлення</button>
+                    <p class="card-top_time">20.05.2019</p>
+                </div>
+                <p class="card-title">Нові функції моніторинга</p>
+                <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+            </div>
+            <div class="card">
+                <div class="card-top">
+                    <button class="card-top_tag meet">Зустріч</button>
+                    <p class="card-top_time">15.05.2019</p>
+                </div>
+                <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+                <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+            </div>
+            <div class="look-all">
+                <a href="index2.html" target="_blank"><button class="btn-look">Переглянути всі</button></a>
+            </div>
+        </ul>
+            <i class="close-icon material-icons">close</i>
+   </header>
+   <div class="container">
+   <aside>
+        <img src="img/Sidebar_full.png" alt="Sidebar"/>
+   </aside>
+   <main>
+    <div>
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Мій акаунт</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" >Історія трансакцій</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')"id="defaultOpen">Сповіщення</button>
+
+<div id="Home" class="tabcontent">
+    <p class="menu-title">Ваші сповіщення</p>
+    <div id="myBtn" class="card">
+        <div  class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">Сьогодні 29.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">28.05.2019</p>
+        </div>
+        <p class="card-title">Оновленна вкладка судових рішень</p>
+        <p class="card-content">Synergistically aggregate inexpensive value after enterprise e-tailers. Assertively mesh cooperative resources before revolutionary bandwidth. Globally expedite team.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag hot">Гаряча новина</button>
+            <p class="card-top_time">28.05.2019</p>
+        </div>
+        <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+        <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag web">Вебінар</button>
+            <p class="card-top_time">21.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">20.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag meet">Зустріч</button>
+            <p class="card-top_time">15.05.2019</p>
+        </div>
+        <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+        <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+    </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#" >2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">...</a>
+        <a href="#">9</a>
+        <a href="#">&raquo;</a>
+      </div>
+</div>
+
+<div id="News" class="tabcontent">
+    <p class="menu-title">Ваші сповіщення</p>
+    <div id="myBtn" class="card">
+        <div  class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">Сьогодні 29.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">28.05.2019</p>
+        </div>
+        <p class="card-title">Оновленна вкладка судових рішень</p>
+        <p class="card-content">Synergistically aggregate inexpensive value after enterprise e-tailers. Assertively mesh cooperative resources before revolutionary bandwidth. Globally expedite team.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag hot">Гаряча новина</button>
+            <p class="card-top_time">28.05.2019</p>
+        </div>
+        <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+        <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag web">Вебінар</button>
+            <p class="card-top_time">21.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">20.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag meet">Зустріч</button>
+            <p class="card-top_time">15.05.2019</p>
+        </div>
+        <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+        <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+    </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#" >2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">...</a>
+        <a href="#">9</a>
+        <a href="#">&raquo;</a>
+      </div>
+</div>
+
+<div id="Contact" class="tabcontent">
+    <p class="menu-title">Ваші сповіщення</p>
+    <div id="myBtn" class="card">
+        <div  class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">Сьогодні 29.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">28.05.2019</p>
+        </div>
+        <p class="card-title">Оновленна вкладка судових рішень</p>
+        <p class="card-content">Synergistically aggregate inexpensive value after enterprise e-tailers. Assertively mesh cooperative resources before revolutionary bandwidth. Globally expedite team.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag hot">Гаряча новина</button>
+            <p class="card-top_time">28.05.2019</p>
+        </div>
+        <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+        <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag web">Вебінар</button>
+            <p class="card-top_time">21.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag">оновлення</button>
+            <p class="card-top_time">20.05.2019</p>
+        </div>
+        <p class="card-title">Нові функції моніторинга</p>
+        <p class="card-content">Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.</p>
+    </div>
+    <div class="card">
+        <div class="card-top">
+            <button class="card-top_tag meet">Зустріч</button>
+            <p class="card-top_time">15.05.2019</p>
+        </div>
+        <p class="card-title">Сьогодні YouControl провів зустріч з представн...</p>
+        <p class="card-content">Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.</p>
+    </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#"class="active">1</a>
+        <a href="#" >2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">...</a>
+        <a href="#">9</a>
+        <a href="#">&raquo;</a>
+      </div>
+</div>
+</div>
+</main>
+</div>
+   <footer id="flexbox">
+        <div class="footer_first">
+            <div>Дзвінок безкоштовний</div>
+            <div>0 800 309 077</div>
+            <div>mail@youcontrol.com.ua</div>
+            <div>Вирішили купувати?</div>
+            <div><button class="btn">Заказать звонок</button></div>
+        </div>
+        <div class="footer_second">
+            <div>Для користувачів</div>
+            <div>Можливості</div>
+            <div>Кейси</div>
+            <div>Тарифи</div>
+        </div>
+        <div class="footer_third">
+            <div>Наші проекти</div>
+            <div>
+                <img class="footer_shape" src="img/Shape.png" alt="shape" />
+                <p class="footer_score">YouScore</p>
+                <p class="footer_api">Доступ по API</p>
+            </div>
+            <div>
+                <img class="footer_shape" src="img/i-extensions.png" alt="i-extensions" />
+                <p class="footer_score">Додаток</p>
+                <p class="footer_api">Chrome, Mozilla</p>
+            </div>
+        </div>
+        <div class="footer_fourth">
+            <div>©YouControl – повне досьє на кожну компанію України</div>
+            <div></div>
+            <div>
+                <img src="img/i-facebook.png" alt="facebook" />
+                <img src="img/i-youtube.png" alt="youtube" />
+                <img src="img/linkedin.png" alt="linkedin"/>
+                <img src="img/telegram.png" alt="telegram"/>
+            </div>
+            <div></div>
+            <div class="services">
+                <p>Сплачуйте онлайн:</p>
+                <img src="img/i-visa_icon.png" alt="visa_icon"/>
+                <img src="img/i-mastercard_icon.png" alt="mastercard"/>
+            </div>
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="img/modal.png" alt="modal">
+        </div>
+      
+      </div>
+    <script src="js/index.js"></script>
+</body>
+</html> 
+
